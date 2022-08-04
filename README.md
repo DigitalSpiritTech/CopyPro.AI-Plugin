@@ -1,1 +1,0 @@
-# CopyPro.AI-Plugin
