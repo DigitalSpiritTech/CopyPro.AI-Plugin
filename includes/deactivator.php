@@ -4,30 +4,32 @@
  * Fired during plugin deactivation
  *
  * @link       https://copypro.ai
- * @since      2.1.0
+ * @since      1.0.0
  *
- * @package    Copypro_Ai
- * @subpackage Copypro_Ai/includes
+ * @package    Copypro_AI
+ * @subpackage Copypro_AI/includes
  */
+
+ namespace Copypro_AI\Includes;
 
 /**
  * Fired during plugin deactivation.
  *
  * This class defines all code necessary to run during the plugin's deactivation.
  *
- * @since      2.1.0
- * @package    Copypro_Ai
- * @subpackage Copypro_Ai/includes
+ * @since      1.0.0
+ * @package    Copypro_AI
+ * @subpackage Copypro_AI/includes
  * @author     CopyPro <ted@copypro.ai>
  */
-class Copypro_Ai_Deactivator {
+class Deactivator {
 
 	/**
 	 * Short Description. (use period)
 	 *
 	 * Long Description.
 	 *
-	 * @since    2.1.0
+	 * @since    1.0.0
 	 */
 	public static function deactivate() {
 

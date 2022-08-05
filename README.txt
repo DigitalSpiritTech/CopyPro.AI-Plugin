@@ -4,11 +4,11 @@ Donate link: https://copypro.ai
 Tags: copy, copywriting, copypro
 Requires at least: 5.0.0
 Tested up to: 6.0.1
-Stable tag: 4.3
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+The only CopyPro approved way to create posts or pages from your generated CopyPro data.
 
 == Description ==
 
@@ -67,20 +67,14 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
+= 1.0.0 =
+* Initial plugin version to match the current app version.
 
 == Upgrade Notice ==
 
 = 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
+Get ready CopyPro users. This is the first version and you should install it so that you can directly add your CopyPro data
+into your WordPress website.
 
 == Arbitrary section ==
 

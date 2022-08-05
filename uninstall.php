@@ -20,7 +20,7 @@
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
  * @link       https://copypro.ai
- * @since      2.1.0
+ * @since      1.0.0
  *
  * @package    Copypro_Ai
  */

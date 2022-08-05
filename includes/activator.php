@@ -4,33 +4,34 @@
  * Fired during plugin activation
  *
  * @link       https://copypro.ai
- * @since      2.1.0
+ * @since      1.0.0
  *
- * @package    Copypro_Ai
- * @subpackage Copypro_Ai/includes
+ * @package    Copypro_AI
+ * @subpackage Copypro_AI/includes
  */
+
+ namespace Copypro_AI\Includes;
 
 /**
  * Fired during plugin activation.
  *
  * This class defines all code necessary to run during the plugin's activation.
  *
- * @since      2.1.0
- * @package    Copypro_Ai
- * @subpackage Copypro_Ai/includes
+ * @since      1.0.0
+ * @package    Copypro_AI
+ * @subpackage Copypro_AI/includes
  * @author     CopyPro <ted@copypro.ai>
  */
-class Copypro_Ai_Activator {
+class Activator {
 
 	/**
 	 * Short Description. (use period)
 	 *
 	 * Long Description.
 	 *
-	 * @since    2.1.0
+	 * @since    1.0.0
 	 */
 	public static function activate() {
-
 	}
 
 }

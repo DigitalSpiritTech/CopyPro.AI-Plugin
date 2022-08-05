@@ -6,11 +6,13 @@
  * This file is used to markup the admin-facing aspects of the plugin.
  *
  * @link       https://copypro.ai
- * @since      2.1.0
+ * @since      1.0.0
  *
- * @package    Copypro_Ai
- * @subpackage Copypro_Ai/admin/partials
+ * @package    Copypro_AI
+ * @subpackage Copypro_AI/admin/partials
  */
 ?>
+
+namespace Copypro_AI\Admin\Partials;
 
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
