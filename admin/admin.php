@@ -77,7 +77,7 @@ class Admin {
 
 		\wp_enqueue_style(
 			$this->plugin_name,
-			\trailingslashit( \plugin_dir_url( __FILE__ ) ) . 'css/copypro-ai-admin.css',
+			\plugin_dir_url( __FILE__ ) . 'css/copypro-ai-admin.css',
 			array(),
 			$this->version,
 			'all'
@@ -106,7 +106,7 @@ class Admin {
 
 		\wp_enqueue_script(
 			$this->plugin_name,
-			\trailingslashit( \plugin_dir_url( __FILE__ ) ) . 'js/copypro-ai-admin.js',
+			\plugin_dir_url( __FILE__ ) . 'js/copypro-ai-admin.js',
 			array(),
 			$this->version,
 			false

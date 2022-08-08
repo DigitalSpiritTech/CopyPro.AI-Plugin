@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 // Set Default paths.
 define( __NAMESPACE__ . '\\PATH', \plugin_dir_path( __FILE__)  );
-define( __NAMESPACE__ . '\\URL', \trailingslashit( \plugin_dir_url( __FILE__ ) ) );
+define( __NAMESPACE__ . '\\URL', \plugin_dir_url( __FILE__ ) );
 
 // Set some plugin values.
 define( __NAMESPACE__ . '\\FILE', __FILE__ );

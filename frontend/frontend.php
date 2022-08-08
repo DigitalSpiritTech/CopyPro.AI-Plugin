@@ -67,17 +67,17 @@ class FrontEnd {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in Copypro_Ai_Loader as all of the hooks are defined
+		 * defined in Includes\Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The Copypro_Ai_Loader will then create the relationship
+		 * The Includes\Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
 		\wp_enqueue_style(
 			$this->plugin_name,
-			\trailingslashit( \plugin_dir_url( __FILE__ ) ) . 'css/copypro-ai-public.css',
+			\plugin_dir_url( __FILE__ ) . 'css/copypro-ai-public.css',
 			array(),
 			$this->version,
 			'all'
@@ -96,17 +96,17 @@ class FrontEnd {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in Copypro_Ai_Loader as all of the hooks are defined
+		 * defined in Includes\Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The Copypro_Ai_Loader will then create the relationship
+		 * The Includes\Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
 		\wp_enqueue_script(
 			$this->plugin_name,
-			\trailingslashit( \plugin_dir_url( __FILE__ ) ) . 'js/copypro-ai-public.js',
+			\plugin_dir_url( __FILE__ ) . 'js/copypro-ai-public.js',
 			array(),
 			$this->version,
 			false
